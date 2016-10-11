@@ -1,0 +1,53 @@
+/*** IFUP CSS TABLETTE ***/
+
+.picto-social {
+    padding-top: 0;
+}
+.bloc-container {
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+#notification-container,
+#message-container {
+    width: 50%;
+}
+#bloc-register,
+#bloc-connect {
+    background: #FFF;
+    z-index: 10;
+    position: fixed;
+    top: 80px;
+    height: auto;
+    border-radius: 2px;
+    display: none;
+}
+.btn-nav {
+    padding: 5px 25px;
+    border-radius: 2px;
+    color: #5EBAB2;
+    margin: 10px;
+    font-size: 13px;
+    background: rgb(94, 186, 178);
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .15);
+}
+#navbar {
+    background: #fff;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .15);
+}
+img.logo-footer {
+    width: 80px;
+    position: absolute;
+    right: 0px;
+    margin: 17px;
+}
+#down {
+    display: none;
+}
+input#my-filters[type=checkbox] {
+    visibility: hidden;
+}
+#info-announce {
+    width: 200px;
+}
